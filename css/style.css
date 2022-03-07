@@ -1,0 +1,143 @@
+/************************************************* Header ********************************************************************/
+#Header .btn-danger{font-size:18px !important; font-weight:600 !important; letter-spacing:-.010em !important; padding:7px 30px !important;} 
+
+/********** Main Banner **************************************************************************************************/
+.MainBanner .carousel-caption {z-index:99;display:flex;justify-content:center;align-items:center;margin:auto;top:0;left:0;bottom:0;right:0;}
+.MainBanner .carousel-caption h1 {text-shadow: 5px 0px 5px rgba(0,0,0,.59);} 
+.MainBanner .carousel-caption .fs-36 {text-shadow: 3px 0px 3px rgba(0,0,0,.59);}
+/********** Experience **************************************************************************************************/
+#Experience .position-text{position:absolute;top: 0;bottom: 0;display: flex;justify-content: center;flex-direction: column;left: 65px;right: 65px;}
+#Experience a:hover.text-danger{color:#2c2c2c !important;}
+/********** About **************************************************************************************************/
+#About {background:url(../images/about-bg.png) no-repeat center right; background-size:cover;}  #About img{position: absolute;bottom: -42px;} #About .mrgn{padding-top:50px;
+padding-bottom:80px;}  .my-100{margin-top: 100px;margin-bottom: 170px;}
+/********** Projects **************************************************************************************************/
+#Projects .card-title{font-size:15px; margin-bottom: 40px;} #Projects .card {border: 0px;border-radius: 0px;} #Projects .card{padding-left: 8px !important;padding-right: 8px !important;} #Projects .img-mrgn{margin-top: -50px;}
+/********** Services **************************************************************************************************/
+#Services {background:url(../images/services-bg.png) no-repeat center center; background-size:cover;}
+#Services .card-title{font-size:20px;} #Services .card-text{font-size:14px; color:#262626; line-height:1.9; margin-bottom:8px;}#Services a{font-size:12px;} #Services .fa-lg{font-size:17px; color:#b20035;} #Services a:hover .text-danger,a:hover .fa-lg {color:#000 !important;}
+#Services .btn-danger{text-transform:uppercase; font-size:13px; letter-spacing:.2em; border-radius:0px; padding: 10px 24px;} #Services .card {box-shadow: 0px 0px 15px rgba(0,0,0,.2); border: 0px;border-radius: 0px;} #Services .card-body{padding: 28px 90px 28px 35px;}
+#Services .btn-danger:hover,.btn-danger.focus,.btn-danger:focus{background-color:#000 !important; border-color:#000 !important;color:#fff !important;}
+/************************************************* Testimonials ******************************************************/
+#Testimonial{background:url(../images/testimonial-bg.jpg);}
+#Testimonial {line-height:1.8; font-size:20px;} 
+.TestoBox{padding:40px 50px; box-shadow:0px 0px 25px rgba(0,0,0,.1); color:#666666; background:#fff;} 
+/********** Services **************************************************************************************************/
+#Services {background:url(../images/services-bg.png) no-repeat top center; background-size:cover;}
+/********** Footer **************************************************************************************************/
+#Footer {background:url(../images/footer-bg.png) no-repeat center left; background-size:cover;}
+#Footer .h3{font-size:22px !important;} #Footer .fa-lg{font-size:15px;} #Footer .links{font-size:14px; letter-spacing:.020em; color:#b4b4b4;}
+#Footer .links a{color:#b4b4b4 !important;} #Footer .list-unstyled a:hover{color:#fff !important;} #Footer .links a:hover{color:#fff !important;}
+#Footer{color:#b4b4b4; font-size:15px; line-height:2.2; font-weight:400;}
+#Footer .list-unstyled a{color:#b4b4b4 !important; font-size:15px; line-height:2; font-weight:400;}
+#Footer .CopyText{font-size:11px; color:#828282; letter-spacing:.040em;}
+
+#Footer .bottomForm .form-group {margin-bottom:8px;} #Footer .bottomForm {width: 90%;}
+#Footer .bottomForm .form-control{font-size:15px; background:#fff; border-color:#fff !important; border-radius:0;height:40px; color:#b4b4b4; font-family: 'Montserrat', sans-serif; padding:15px;}
+#Footer .bottomForm .form-control::placeholder{color:#b4b4b4;}
+#Footer .bottomForm textarea.form-control{height:64px; padding:15px;}
+#Footer .bottomForm textarea:focus ,textarea.form-control:focus{
+
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+#Footer .bottomForm .btn-danger{text-transform:uppercase !important; letter-spacing:.040em !important; border-radius:0px; padding:13px 17px;}
+#Footer .btn-danger:hover,.btn-danger.focus,.btn-danger:focus{background-color:#000 !important; border-color:#000 !important;color:#fff !important;}
+input.form-control, input.form-control:focus {
+    font-size: 13px;
+    height: 40px;
+    box-shadow: none;
+}
+
+
+.Listing {padding:0px; margin:0px; list-style-type:none;}
+.Listing li{color:#fff; background:#7db916 url(../images/icon1.png) no-repeat 1.1em 1.45em; padding:14px 0 12px 45px; margin:0 0 1px; border-radius:6px;}
+.Listing li a{color:#fff;} .Listing li a:hover{color:#000;}
+
+
+/*************************************************************************************************************/
+.container-new{max-width:1920px !important; padding-right:15px; padding-left:15px;margin-right: auto;margin-left: auto;}
+.container-fluid{max-width:1300px !important;}
+.container{max-width:1170px !important;}
+
+
+/* ============ desktop view ============ */
+@media all and (min-width: 1025px) {
+	.navbar .nav-item .dropdown-menu{ display:none;}
+	.navbar .nav-item:hover .nav-link{ color:#fff;}
+	.navbar .nav-item:hover .dropdown-menu{ display:block;}
+	.navbar .nav-item .dropdown-menu{ margin-top:0;}
+}	
+/* ============ desktop view .end// ============ */
+
+@media (min-width:992px) {
+#Header {top:0px; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; transition:0.5s;}
+.shrink {background:rgba(0,0,0,.95); box-shadow:0px 5px 12px rgba(0,0,0,.5); z-index:999;}
+.Logo img {max-height:178px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.shrink .Logo img {max-height:100px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.Homebnr .carousel-item img {
+    height: 732px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	}
+ #Header .mt-6{margin-top:30px;}
+}
+@media (min-width:767.98px) {
+	.card-columns {
+    column-count: 3;
+}
+}
+@media (min-width: 1200px) {#Header .me-xl-n5{margin-right: -35px;} .MainBanner .carousel-caption h1 {margin-bottom:-6px;} #Testimonial .testi-width{ width: 1180px;} #Footer .footer-width{ width: 1230px;}
+
+}
+
+@media (min-width: 1920px) {
+
+}
+
+
+@media (min-width: 1600px) {
+.gx-xxl-6 {margin-left:-25px!important;margin-right:-25px!important;}
+.gx-xxl-6 div[class^="col"]{padding-left:25px!important;padding-right:25px!important;}
+
+.gx-xxl-5 {margin-left:-20px!important;margin-right:-20px!important;}
+.gx-xxl-5 div[class^="col"]{padding-left:20px!important;padding-right:20px!important;}
+
+}
+
+
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {#Experience .position-text{left: 65px !important;right: 65px !important;} }
+
+
+/*@include media-breakpoint-between(md, xl) { ... }*/
+@media (min-width: 991.98px) and (max-width: 1199.98px){#Header .btn-danger {padding: 7px 15px !important;} h1, .h1 {font-size: 35px;} h3, .h3 {
+font-size: 20px;} #Experience .fs-25{font-size:20px !important;} #Experience p{font-size:14px; line-height:1.4;} #About .mrgn {padding-top: 40px;
+padding-bottom: 50px;padding-left: 40px;} #About h3, .h3 {font-size: 18px !important;} #About img {bottom: -12px;} .my-100 {margin-top: 25px;margin-bottom: 55px;} #Projects .img-mrgn {margin-top: -15px;} #Services .card-title {font-size: 16px;} #Services .card-body {padding: 30px;} h2, .h2 {font-size: 30px;}}
+
+/*For example the @include media-breakpoint-only(md) { ... } will result in :*/
+@media (min-width: 768px) and (max-width: 991.98px) {#Header{position:static; background:#282828; padding-top:10px;} .Logo{padding-bottom:10px;}.MainBanner .carousel-caption .fs-36 {font-size: 25px !important;}h1, .h1 {font-size: 30px;} h3, .h3 {font-size: 20px;} #Experience .fs-25{font-size:20px !important;} #Experience p{font-size:14px; line-height:1.4;} #About .mrgn {padding-top: 0px;padding-bottom: 30px;padding-left: 20px;} #About h3, .h3 {font-size: 18px !important;} #About img {position:static; display: block;margin-left: auto;margin-right: auto;} .my-100 {margin-top: 0px;margin-bottom: 50px; padding-top:50px;} #Projects .img-mrgn {margin-top: 0px;} #Services .card-title {font-size: 16px;} #Services .card-body {padding: 30px;} #About .btn-danger{background:#000 !important; border-color:#000 !important;color:#fff !important;} #About .btn-danger:hover,.btn-danger.focus,.btn-danger:focus{background-color:#fff !important; border-color:#fff !important;color:#b20035 !important;} #Footer .h3 {font-size: 18px !important;} h2, .h2 {font-size: 30px;}
+} 
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width:767.98px) {#Header{position:static; background:#282828; padding:10px 0px;}  .MainBanner .carousel-caption .fs-36 {font-size: 25px !important;}h1, .h1 {font-size: 30px;} h3, .h3 {font-size: 20px;} #Experience .fs-25{font-size:16px !important;} #Experience {font-size:14px; line-height:1.4;} #About .mrgn {padding-top: 0px;padding-bottom: 30px;padding-left: 20px;} #About h3, .h3 {font-size: 18px !important;} #About img {position:static; display: block;margin-left: auto;margin-right: auto;} .my-100 {margin-top: 0px;margin-bottom: 50px; padding-top:50px;} #Projects .img-mrgn {margin-top: 0px;} #Services .card-title {font-size: 16px;} #Services .card-body {padding: 30px;} #About .btn-danger{background:#000 !important; border-color:#000 !important;color:#fff !important;} #About .btn-danger:hover,.btn-danger.focus,.btn-danger:focus{background-color:#fff !important; border-color:#fff !important;color:#b20035 !important;} #Footer .h3 {font-size: 18px !important;} h2, .h2 {font-size: 25px;}#Experience  h3, .h3 {font-size: 16px !important;} .card-columns {column-count: 3;} #Testimonial .TestoBox {padding: 30px;}
+
+@media (max-width:575.98px) {.MainBanner .carousel-caption .fs-36 {font-size: 20px !important;} .Logo{padding-bottom:15px;} h1, .h1 {font-size: 25px;} .Homebnr .carousel-item img {
+    height: 230px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	}
+.card-columns {column-count: 1;} #Projects .card-title {margin-bottom: 10px;} #Footer .bottomForm {width: 100%;} #Footer .me-n5{margin-right:-20px;}
+}
+/* X-Small devices (portrait phones, less than 576px) */
